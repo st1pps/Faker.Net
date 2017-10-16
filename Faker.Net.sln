@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Faker.Net", "Faker.Net\Faker.Net.csproj", "{F4E27022-496C-48E5-8986-F68355C2ECB3}"
-EndProject
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Faker.Net.NUnit.Tests", "Faker.Net.NUnit.Tests\Faker.Net.NUnit.Tests.csproj", "{5535BD16-B1E6-40A9-9ADA-502EE21E14BC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{21F28937-D619-4BDF-8A71-1D55B9E698D0}"
@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{21F289
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Faker.Net", "Faker.Net\Faker.Net.csproj", "{FE5C910F-1A01-40C0-A4E1-53F07D57FA3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,16 +24,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F4E27022-496C-48E5-8986-F68355C2ECB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F4E27022-496C-48E5-8986-F68355C2ECB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F4E27022-496C-48E5-8986-F68355C2ECB3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{F4E27022-496C-48E5-8986-F68355C2ECB3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{F4E27022-496C-48E5-8986-F68355C2ECB3}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{F4E27022-496C-48E5-8986-F68355C2ECB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F4E27022-496C-48E5-8986-F68355C2ECB3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F4E27022-496C-48E5-8986-F68355C2ECB3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{F4E27022-496C-48E5-8986-F68355C2ECB3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{F4E27022-496C-48E5-8986-F68355C2ECB3}.Release|x86.ActiveCfg = Release|Any CPU
 		{5535BD16-B1E6-40A9-9ADA-502EE21E14BC}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{5535BD16-B1E6-40A9-9ADA-502EE21E14BC}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{5535BD16-B1E6-40A9-9ADA-502EE21E14BC}.Debug|Mixed Platforms.Build.0 = Debug|x86
@@ -42,8 +34,23 @@ Global
 		{5535BD16-B1E6-40A9-9ADA-502EE21E14BC}.Release|Mixed Platforms.Build.0 = Release|x86
 		{5535BD16-B1E6-40A9-9ADA-502EE21E14BC}.Release|x86.ActiveCfg = Release|x86
 		{5535BD16-B1E6-40A9-9ADA-502EE21E14BC}.Release|x86.Build.0 = Release|x86
+		{FE5C910F-1A01-40C0-A4E1-53F07D57FA3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE5C910F-1A01-40C0-A4E1-53F07D57FA3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE5C910F-1A01-40C0-A4E1-53F07D57FA3F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{FE5C910F-1A01-40C0-A4E1-53F07D57FA3F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{FE5C910F-1A01-40C0-A4E1-53F07D57FA3F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FE5C910F-1A01-40C0-A4E1-53F07D57FA3F}.Debug|x86.Build.0 = Debug|Any CPU
+		{FE5C910F-1A01-40C0-A4E1-53F07D57FA3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE5C910F-1A01-40C0-A4E1-53F07D57FA3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE5C910F-1A01-40C0-A4E1-53F07D57FA3F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{FE5C910F-1A01-40C0-A4E1-53F07D57FA3F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{FE5C910F-1A01-40C0-A4E1-53F07D57FA3F}.Release|x86.ActiveCfg = Release|Any CPU
+		{FE5C910F-1A01-40C0-A4E1-53F07D57FA3F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C59ACDC0-05BE-489B-95D3-A87BE6F3CF59}
 	EndGlobalSection
 EndGlobal
